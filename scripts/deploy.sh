@@ -36,7 +36,8 @@ function __execute__ {
      git clone https://$__TOKEN_GITHUB__@github.com/$__ORG_DEPLOY__/$__REPO_DEPLOY__.git
      git checkout master
      git pull
-      
+     
+     pwd && ls -ltra
      cd $__REPO_DEPLOY__/scripts/
      chmod +x deploy.sh
      sh deploy.sh $__CALL__
