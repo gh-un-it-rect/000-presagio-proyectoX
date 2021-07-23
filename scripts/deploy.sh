@@ -34,6 +34,7 @@ function __execute__ {
      git config --global user.email $__USER_EMAIL__
      
      git clone https://$__TOKEN_GITHUB__@github.com/$__ORG_DEPLOY__/$__REPO_DEPLOY__.git
+     git checkout master
      git pull
       
      cd $__REPO_DEPLOY__/scripts/
