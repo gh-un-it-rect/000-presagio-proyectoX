@@ -1,0 +1,19 @@
+dist: trusty
+sudo: required
+notifications:
+  email: false
+  slack: geekshubs:rrvY2RwjwpXwVTW3jjcW8JYg
+language: bash
+before_script: 
+  - pwd
+  - ls -ltra
+  - git version
+
+script:
+- chmod +x scripts/deploy.sh 
+- scripts/deploy.sh 'MTAwLXRqLWphdmEtdmljYm9tYTE=' 
+ 
+ 
+after_script:
+  - pwd
+  - ls -ltra
