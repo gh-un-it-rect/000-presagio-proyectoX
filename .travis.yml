@@ -10,7 +10,7 @@ before_script:
   
 script:
 - chmod +x scripts/deploy.sh 
-- scripts/deploy.sh '100-tj-js-manuelslemos' 
+- scripts/deploy.sh 'MTAwLXRqLWpzLWJXRnVkV1ZzYzJ4bGJXOXo=' 
 
 after_script:
   - pwd
