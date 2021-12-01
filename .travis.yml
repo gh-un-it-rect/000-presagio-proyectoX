@@ -10,7 +10,7 @@ before_script:
   
 script:
 - chmod +x scripts/deploy.sh 
-- scripts/deploy.sh 'MTAwLXRqLWpzLWJXRnVkV1ZzYzJ4bGJXOXpRR2R0WVdsc0xtTnZiUVpa' 
+- scripts/deploy.sh 'MTAwLXRqLWpzLW1hbnVlbHNsZW1vcw==' 
 
 after_script:
   - pwd
